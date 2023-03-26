@@ -1,0 +1,78 @@
+import { Dimensions } from "react-native";
+
+const width = Dimensions.get("window").width;
+const height = Dimensions.get("window").height;
+
+export default {
+  device: {
+    width: width,
+    height: height,
+  },
+  border: {
+    radius: "0.4rem",
+  },
+  fonts: {
+    regular: "PublicSans_400Regular",
+    medium: "PublicSans_500Medium",
+    bold: "PublicSans_700Bold",
+    aliceMedium: "Alice_400Regular",
+    sizes: {
+      xxsmall: "10px",
+      xsmall: "10px",
+      small: "14px",
+      medium: "18px",
+      large: "24px",
+      xlarge: "30px",
+      xxlarge: "39px",
+      xxxlarge: "64px",
+    },
+  },
+  colors: {
+    white: "#FFFFFF",
+    orange: "#FF8200",
+    danger: "#DC2626",
+    red: "#FF543D",
+    dangerText: "#FF0000",
+    lightGray: "#9CA3AF",
+    darkGray: "#1F2937",
+    opacityBlack: "#575F69",
+    buttonAccept: "#FF8200",
+    buttonDisable: "#F4F4F7",
+    smokeWhite: "#F4F4F7",
+    drawerIcons: "#919EAB",
+    background: "#F3F2F8",
+    buttonAux: "#0066A5",
+    buttonLink: "#E6ECF3",
+    lightPrimary: "#E6ECF3",
+    lightBlue: "#e3ebf3",
+    primary: "#FF0A38",
+    black: "#000000",
+    placeholderTextColor: "#A2A9B4",
+    backgroundOpacity: "rgba(0,0,0,0.8)",
+    text: "#383B43",
+    subtext: "#8D919E",
+    border: "#C5CADA",
+    iconColor: "#FAF4F4",
+    tarker: "#505059",
+    placeholderInput: "#919191",
+    inputBackground: "#F2F2F2",
+    locationBackground: "#10c4ac",
+  },
+  shadow: {
+    shadowOpacity: 0.5,
+    shadowOffset: { width: 5, height: 3 },
+    shadowRadius: 2,
+    elevation: 5,
+    shadowColor: "#00000066",
+  },
+  spacings: {
+    xxsmall: "6px",
+    xsmall: "12px",
+    small: "14px",
+    medium: "16px",
+    large: "18px",
+    xlarge: "24px",
+    xxlarge: "34px",
+    xxxlarge: "42px",
+  },
+};
